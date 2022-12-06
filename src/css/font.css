@@ -1,0 +1,6 @@
+@layer components {
+  @font-face {
+    font-family: SourceHanSansCN-Normal;
+    src: url("../assets/SourceHanSansCN-Normal.woff2");
+  }
+}
