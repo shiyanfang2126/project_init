@@ -25,6 +25,11 @@ export default defineConfig({
       ],
     }),
   ],
+  server: {
+    host: '0.0.0.0',
+    port: 8090,
+    https: false,
+  },
   css: {
     postcss: {
       plugins: [tailwindcssNesting, tailwindcss, postcssImport],
